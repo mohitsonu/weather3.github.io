@@ -1,0 +1,1 @@
+// searchTerms = mySearch.value;
