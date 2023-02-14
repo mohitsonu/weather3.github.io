@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 2.0</title>
+    <link rel="stylesheet" href="weather2.css">
+    <link rel="stylesheet" href="weather.js">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <!-- <div class="header">
+        <div class="content">
+            <h1 class="title">Weather Bank</h1>
+            <p class="menu1">Home</p>
+            <p class="menu2">About this web app</p>
+        </div>
+        <div class="search">
+            <input
+            type="text"
+            class="text"
+            placeholder="Enter city name"/>
+        <button class="submit">Submit</button>
+
+        </div>
+
+    </div> -->
+    <nav class="left">
+        <ul class="items">
+            <div class="name"><a href="index.html"><h1>Waether Bank</h1></a></div>
+            <li class="menu1"><a href=""> Home</a></li>
+            <li class="menu2"><a href=""> About this web app</a></li>
+        </ul>
+        <div class="right">
+            <input type="text" class="search" name="search" id="searchs" placeholder="Enter the city for weather">
+            <button class="submit"type="submit" id="submits">Search</button>
+        </div>
+    </nav>
+    <br>
+    <h1 class="weathercity">Weather in <span id="cityname"></span></h1>
+
+
+
+    <div class="container">
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>01</h2>
+              <h3 class="titlecard">Temperature</h3>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"> <span id="temp2"></span><small class="text-muted fw-light">&#8451;</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Temperature is : <span id="temp"></span></li>
+                  <li>Min Temperature is : <span id="min_temp"></span></li>
+                  <li>Max Temperature is : <span id="max_temp"></span></li>
+                </ul>
+              </div>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p> -->
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>02</h2>
+              <h3>Humidity info</h3>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><span id="humidity2"></span><small class="text-muted fw-light">%</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Cloud PCT is : <span id="cloud_pct"></span></li>
+                    <li>Feels like : <span id="feels_like"></span></li>
+                    <li>Humidity is : <span id="humidity"></span></li>
+                </ul>
+              </div>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p> -->
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>03</h2>
+              <h3>Wind info</h3>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><span id="wind_speed2"></span><small class="text-muted fw-light">Kmph</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Wind Speed : <span id="wind_speed"></span></li>
+                    <li>Wind Degree : <span id="wind_degrees"></span></li>
+                    <li>Sunrise Time is :  <span id="sunrise"></span></li>
+                    <li>Sun Set time is :  <span id="sunset"></span></li>
+  
+                </ul>
+                
+              </div>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p> -->
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
