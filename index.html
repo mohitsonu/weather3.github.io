@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather 2.0</title>
     <link rel="stylesheet" href="weather2.css">
-    <script src="weather.js"></script>
+    <script src="weather.js" defer></script>
 </head>
 <body>
     <nav class="left">
@@ -16,9 +16,11 @@
             <li class="menu2"><a href=""> About this web app</a></li>
         </ul>
         <div class="right">
-            <input type="text" class="search" name="search" id="searchs" placeholder="Enter the city for weather">
+            <form class="form" role="search">
+            <input id="city" class="search" type="text" placeholder="Enter the city for weather">
             <button class="submit"type="submit" id="submits">Search</button>
-        </div>
+       </form>
+     </div>
     </nav>
     <br>
     <h1 class="weathercity">Weather in <span id="cityname"></span></h1>

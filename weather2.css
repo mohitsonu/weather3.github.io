@@ -34,8 +34,7 @@
 }
 
 .weathercity{
-    display: flex;
-    justify-content: center;
+   text-align: center;
   
 }
 
@@ -185,6 +184,10 @@ body .container .card .box .content p {
   color: rgba(255, 255, 255, 0.9);
   z-index: 1;
   transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 body .container .card .box .content a {

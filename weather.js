@@ -30,9 +30,10 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=' + city, op
     sunset.innerHTML = response.sunset
   })
 
-  const submits = document.getElementById("submits")
-    .catch(err => console.error(err));
+  .catch(err => console.error(err));
 }
+
+const submits = document.getElementById("submits")
   submits.addEventListener("click", (e) => {
   e.preventDefault()
   getWeather(city.value)
