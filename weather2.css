@@ -210,3 +210,15 @@ body .container .card .box .content a:hover {
 .card-body{
     color: azure;
 }
+.center{
+  text-align: center!important;
+}
+figure{
+}
+.middle{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.middle p{
+  margin: 30px;
+}
