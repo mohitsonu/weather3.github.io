@@ -39,4 +39,4 @@ const submits = document.getElementById("submits")
   getWeather(city.value)
 })
 
-getWeather("Kakinada")
+getWeather("Delhi")
