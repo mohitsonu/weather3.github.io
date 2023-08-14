@@ -1,7 +1,9 @@
 # weather3.github.io
-https://mohitsonu.github.io/weather3.github.io/index.html
 
 click on this link 
+https://mohitsonu.github.io/weather3.github.io/index.html
+
+
 weather 
 Weather Web Application is an innovative and user-friendly platform that provides real-time weather information to its users.
 The application is built to deliver an exceptional weather experience by providing accurate and up-to-date weather forecasts for any location in the world.
